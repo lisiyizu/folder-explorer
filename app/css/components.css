@@ -1,0 +1,86 @@
+/* general */
+html {
+	font-family: Consolas, sans-serif;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+/* file-explorer */
+
+#file-explorer {
+	border-radius: 3px;
+	border: 1px solid;
+	bottom: 0px;
+	height: 80%;
+	left: 0px;
+	margin: auto;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 80%;
+}
+
+#file-explorer .header {
+	border-bottom: 1px solid;
+	display: flex;
+	padding: 5px 12px;
+}
+
+#file-explorer .header h1,
+#file-explorer .header a {
+	font-size: 0.8em;
+}
+
+#file-explorer .header h1 {
+	font-weight: bold;
+}
+
+#file-explorer .header a {
+	border: 1px solid;
+	padding: 0 12px;
+	margin-left: 10px;
+}
+
+#file-explorer .content {
+	height: 100%;
+	overflow: auto;
+}
+
+#file-explorer .content li {
+	cursor: pointer;
+	font-size: 0.8em;
+	padding: 0 12px;
+}
+
+/* background */
+
+#file-explorer {
+	border-color: #dfdfdf;
+}
+
+#file-explorer .header {
+	background: #efefef;
+	border-bottom-color: #dfdfdf;
+}
+
+#file-explorer .header a,
+#file-explorer .header h1 {
+	color: #8f8f8f;
+}
+
+#file-explorer .content li,
+#file-explorer .content li i {
+	color: #3f3f3f;
+}
+
+#file-explorer .content li:hover {
+	color: #ffffff;
+	background: #008ae6;
+}
+
+#file-explorer .content li:hover i {
+	color: #ffffff;
+}

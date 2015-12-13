@@ -1,0 +1,31 @@
+/*
+reset | 0.5.0
+liscense: none
+*/
+
+html, body, a, i, p, h1, h2, h3, h4, h5, h6, strong, span, header, footer, section,
+nav, menu, aside, video, audio, hgroup, article, table, th, td, tr, ul, ol, li,
+form, label, legend {
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-size: 100%;
+}
+
+a, i, strong, h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-style: none;
+	text-decoration: none;
+}
+
+header, footer, section, article, nav, aside, menu, hgroup {
+	display: block;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+}
